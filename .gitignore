@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv_py311/
+.venv/
+env/
+ENV/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary Office files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Dataset (large file - download separately)
+ratings_small.csv
+archive/
+
+# Generated outputs (can be regenerated)
+task_2d_model_comparison.png
+task_2e_similarity_metrics.png
+task_2f_neighbor_impact.png
+task_2g_best_k.png
+
+# Word report (can be regenerated)
+2c.docx
+
+# Logs and temp files
+*.log
+*.tmp
+.pytest_cache/
